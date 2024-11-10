@@ -1,0 +1,98 @@
+
+*{
+box-sizing:border-box;
+    margin:0px;
+}
+body{
+    background-image:url('../img/fondo.jpg');
+background-size: cover;
+background-position:center;
+
+}
+
+header{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border:5px double gold;
+    text-align:center;
+    width:100%;
+    position:fixed;
+    margin-top:-145px;
+    background-image:url('../img/fondo.jpg');
+    background-size: cover;
+    background-position:center;
+
+}
+nav{
+    text-align:center;
+    padding:5px;
+   margin-top:145px;
+}
+
+nav a {
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    padding:3px;
+    border:4px groove gold;
+    position:relative;
+    z-index:1;
+
+}
+}
+nav a:hover{
+    background-color:black;
+    color:white;
+    width:100px;
+    text-decoration:none;
+}
+p{
+    color:white;
+    margin:10px;
+}
+
+main{
+    border: 3px solid black;
+}
+
+section article{
+    float:left;
+
+}
+
+header img{
+    border-radius:30px;
+    width:100px;
+    border: 2px solid white;
+    float:none;
+}
+
+img{
+    width:150px;
+    border-radius:70px;
+    float:left;
+    margin-right:10px;
+
+}
+
+article{
+    border:2px solid black;
+}
+h1{
+    margin:20px 40px;
+    color:white;
+    width:30%;
+}
+
+footer{
+    color: white;
+    background-color:black;
+    text-align:center;
+    padding:30px;
+}
+
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
